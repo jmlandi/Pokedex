@@ -2,4 +2,4 @@
 Pokemon Pokedex made with `HTML, CSS and JS` fetching the [PokeAPI](https://pokeapi.co/) to improve my knoledge about JS and `RESTful APIs`.
 ### You can see the website [clicking here!] ()
 ### Hope you liked it! 🤞
-<div style='text-align: center;'>![CharmanderCharmanderPokemonGIF](https://github.com/jmlandi/Pokedex/assets/98327875/6c40120e-c7e3-4481-8e2a-eebbe461e09f)</div>
+<img src="https://tenor.com/pt-BR/view/eevee-breakdance-breakdancing-rmk-pokemon-gif-26492203" width="100%">
