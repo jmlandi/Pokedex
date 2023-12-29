@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    
+    <!-- Style -->
+    <link rel="icon" href="favicon/pokebola.png" sizes="16x16">
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- JavaScript -->
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <main>
+        <div class="error">
+            <div class="alert">
+            <p class="exit__cross">X</p>
+            <p>O Pokemon digitado é inválido. Tente novamente!</p>
+            </div>
+        </div>
+
+        <div class="loading">
+            <img src="images/carregando.png" width="64px" alt="Loading...">
+        </div>
+
+        <img class="pokemon__sprite" src="" alt="pokmeon">
+        <div class="pokemon__data">
+            <span class="pokemon__id"></span> - <span class="pokemon__name"></span>
+        </div>
+        <form class="pokemon__form">
+            <input type="text" class="pokemon__input" placeholder="Type the name or ID from your Pokemon">
+            <button class="pokemon__submit" type="submit">Submit</button>
+        </form>
+        <div class="buttons">
+            <button class="button prev-btn"> Prev &lt; </button>
+            <button class="button next-btn"> &gt; Next </button>
+        </div>
+        <img class="pokedex" src="images/pokedex.png" alt="pokedex">
+    </main>
+</body>
+</html>
